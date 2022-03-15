@@ -1,22 +1,19 @@
 #include "main.h"
-
 /**
- * print_alphabet -  prints the alphabet, in lowercase, followed by a new line
- *
- * Return: On success 1.
- * On error, -1 is returned, and error is set appropriately.
- */
-
+* print_alphabet_x10 - Prints the alphabet 10 times.
+*
+* Return: Always 0
+*/
 void print_alphabet_x10(void)
 {
 	int i, a;
 
-    for (i = 0; i <= 9; i++)
-    {
-        for (a = 97; a < 123; a++)
-		{
+		for (i = 0; i <= 9; i++)
+	{
+		for (a = 97; a <= 122; a++)
+	{
 		_putchar(a);
-		}
+	}
 		_putchar('\n');
-    }
+	}
 }
