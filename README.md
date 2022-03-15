@@ -1,1 +1,1 @@
-My journey into C programmin
+This program is about functions and nested loops
