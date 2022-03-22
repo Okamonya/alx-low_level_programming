@@ -7,9 +7,11 @@
  */
 int main(void)
 {
-	print_diagonal(0);
-	print_diagonal(2);
-	print_diagonal(10);
-	print_diagonal(-4);
+	char *str, *str1;
+
+	str = "0123456789";
+	str1 = "Holberton!";
+	puts_half(str);
+	puts_half(str1);
 	return (0);
 }
